@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liga 1 Bet Aid</title>
+    <link rel="stylesheet" type="text/css" href="home.css"  >
+    <script src="home.js"></script>
+
+</head>
+<body>
+   
+    <div class="main">
+        <div class="echipa" >
+            <div class="padder">
+                <h4>Nume Echipa:</h4>
+                <input type="text" id="numeechipa">
+                <table>
+                    <form >
+                    <tr>
+                        <th>n/a</th>
+                        <th>Meci 1</th>
+                        <th>Meci 2</th>
+                        <th>Meci 3</th>
+                        <th>Meci 4</th>
+                        <th>Meci 5</th>
+                    </tr>
+                    <tr>
+                        <td>Vicotrie</td>    
+                        <td><input type="radio" name="meci1" id="v1" ></td>
+                        <td><input type="radio" name="meci2" id="v2" ></td>
+                        <td><input type="radio" name="meci3" id="v3" ></td>
+                        <td><input type="radio" name="meci4" id="v4" ></td>
+                        <td><input type="radio" name="meci5" id="v5" ></td>
+
+                    </tr>
+                    <tr>
+                        <td>Egal</td>    
+                        <td><input type="radio" name="meci1" id="e1" ></td>
+                        <td><input type="radio" name="meci2" id="e2" ></td>
+                        <td><input type="radio" name="meci3" id="e3" ></td>
+                        <td><input type="radio" name="meci4" id="e4" ></td>
+                        <td><input type="radio" name="meci5" id="e5" ></td>
+
+                    </tr>
+                    <tr>
+                        <td>Infrangere</td>    
+                        <td><input type="radio" name="meci1" id="l1" ></td>
+                        <td><input type="radio" name="meci2" id="l2" ></td>
+                        <td><input type="radio" name="meci3" id="l3" ></td>
+                        <td><input type="radio" name="meci4" id="l4" ></td>
+                        <td><input type="radio" name="meci5" id="l5" ></td>
+
+                    </tr>
+                </form>
+                </table>
+                <h4>Record:</h4>
+               
+                    <input type="number" id="vr" placeholder="v">
+                    <input type="number" id="er" placeholder="e">
+                    <input type="number" id="lr" placeholder="i">
+               
+                <h4>Cota:</h4>
+                <input type="number" id="cota1">
+            </div>  
+        </div>
+    <div class="res" id="rezz" style="display: none;">
+        <div class="fle">
+            <div class="ec1">
+                <h2 id="ne1"></h1>
+                <h3>Forma:</h3>
+                <ul>
+                    <li>Victorii: <b id="vi1"></b></li>
+                    <li>Egal: <b id="eg1"></b></li>
+                    <li>Infrangere: <b id="in1"></b></li>
+                </ul>
+                <h3>Scor:</h3>
+                <h2 id="scor1"></h2>
+            </div>
+            <div class="ec2">
+                <h2 id="ne2"></h2>
+                <h3>Forma:</h3>
+                <ul>
+                    <li>Victorii: <b id="vi2"></b></li>
+                    <li>Egal: <b id="eg2"></b></li>
+                    <li>Infrangere: <b id="in2"></b></li>
+                </ul>
+                <h3>Scor:</h3>
+                <h2 id="scor2"></h2>
+            </div>
+            <h1>Echipa: <b id="echip"></b>, are sanse mai mari sa castige</h1>
+            <h1>Risc: <b id="risc"></b></h1>
+        </div>
+        <button onclick="window.location.reload();" id="reset">Reset!</button>
+    </div>    
+    <div class="echipa1">
+      
+            <h4>Nume Echipa:</h4>
+            <input type="text" id="numeechipa1">
+            <table>
+                <table>
+                    <form >
+                    <tr>
+                        <th>n/a</th>
+                        <th>Meci 1</th>
+                        <th>Meci 2</th>
+                        <th>Meci 3</th>
+                        <th>Meci 4</th>
+                        <th>Meci 5</th>
+                    </tr>
+                    <tr>
+                        <td>Vicotrie</td>    
+                        <td><input type="radio" name="meci12" id="v12" ></td>
+                        <td><input type="radio" name="meci22" id="v22" ></td>
+                        <td><input type="radio" name="meci32" id="v32" ></td>
+                        <td><input type="radio" name="meci42" id="v42" ></td>
+                        <td><input type="radio" name="meci52" id="v52" ></td>
+        
+                    </tr>
+                    <tr>
+                        <td>Egal</td>    
+                        <td><input type="radio" name="meci12" id="e12" ></td>
+                        <td><input type="radio" name="meci22" id="e22" ></td>
+                        <td><input type="radio" name="meci32" id="e32" ></td>
+                        <td><input type="radio" name="meci42" id="e42" ></td>
+                        <td><input type="radio" name="meci52" id="e52" ></td>
+        
+                    </tr>
+                    <tr>
+                        <td>Infrangere</td>    
+                        <td><input type="radio" name="meci12" id="l12" ></td>
+                        <td><input type="radio" name="meci22" id="l22" ></td>
+                        <td><input type="radio" name="meci32" id="l32" ></td>
+                        <td><input type="radio" name="meci42" id="l42" ></td>
+                        <td><input type="radio" name="meci52" id="l52" ></td>
+        
+                    </tr>
+                </form>
+            </table>
+            <h4>Record:</h4>
+
+        <input type="number" id="vr2" placeholder="v">
+        <input type="number" id="er2" placeholder="e">
+        <input type="number" id="lr2" placeholder="i">
+        <h4>Cota:</h4>
+        <input type="number" id="cota2">
+    </div>
+
+</div>
+    <div class="butoane">
+        <button onclick="probs()">Continua!</button>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,242 @@
+body{
+    font-family: "Helvetica-Light","Helvetica Neue Light","Helvetica Neue",Arial, Helvetica,"Lucia Grande", sans-serif;
+    background-color: rgb(199, 199, 199);
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main{
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.echipa{
+    
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    border-style:solid ;
+    border-width: 0px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    
+}
+.echipa1{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    border-style:solid ;
+    border-width: 0px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
+  
+    
+       
+}
+.echipa1 #vr2{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+.echipa1 #er2{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+.echipa1 #lr2{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+#cota2{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+.echipa1 #numeechipa1{
+    border-radius: 15px ;
+    border-style:solid ;
+    border-width: 1px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 250px;
+    text-align: center;
+}
+.echipa #numeechipa{
+    border-radius: 15px ;
+    border-style:solid ;
+    border-width: 1px;
+    text-align: center;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    margin-bottom: 20px;
+    height: 25px;
+    width: 250px;
+}
+.echipa form{
+    display: flex; 
+   
+  
+}
+.echipa  #vr{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+
+}
+.echipa  #er{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+.echipa  #lr{
+    height: 40px;
+    width: 30px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+#cota1{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px ;
+    margin: 10px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-style:solid ;
+    border-width: 1px;
+}
+.res{
+    
+    width: 500px;
+    height: 700px;
+    background-color: white;
+    padding: 20px;
+    border-style:solid ;
+    border-width: 0px;
+    box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-top: -3%;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+}
+.butoane{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color:rgb(41, 41, 41);
+    width: 100px;
+    height: 30px;
+    color: white;
+    border-style:solid ;
+    border-width: 0px;
+    border-radius: 15px;
+}
+@media only screen  and (max-width:1000px) 
+{   
+    body{
+        font-family: "Helvetica-Light","Helvetica Neue Light","Helvetica Neue",Arial, Helvetica,"Lucia Grande", sans-serif;
+        background-color: rgb(199, 199, 199);
+        background-image: url('background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100% 100%;
+    }
+    .main{
+        display: block;
+        margin-top: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+    .echipa{
+    
+        width: 300px;
+        height: 500px;
+        background-color: white;
+        padding: 20px;
+        border-style:solid ;
+        border-width: 0px;
+        box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+      
+        
+       
+        
+    }
+    .echipa1{
+        width: 300px;
+        height: 500px;
+        background-color: white;
+        padding: 20px;
+        border-style:solid ;
+        border-width: 0px;
+        box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+      
+        
+           
+    }
+    .res{
+    
+        width: 300px;
+        height: 770px;
+        background-color: white;
+        padding: 20px;
+        border-style:solid ;
+        border-width: 0px;
+        box-shadow: rgba(0,0,0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        margin-top: -3%;
+        margin-left: 10px;
+        margin-top: 20px;
+       
+    }
+}
