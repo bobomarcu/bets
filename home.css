@@ -15,7 +15,7 @@ body{
 .echipa{
     
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     padding: 20px;
     border-style:solid ;
@@ -29,7 +29,7 @@ body{
 }
 .echipa1{
     width: 400px;
-    height: 500px;
+    height: 550px;
     background-color: white;
     padding: 20px;
     border-style:solid ;
@@ -170,6 +170,10 @@ button{
     border-width: 0px;
     border-radius: 15px;
 }
+form{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 @media only screen  and (max-width:1000px) 
 {   
     body{
@@ -189,7 +193,7 @@ button{
     .echipa{
     
         width: 300px;
-        height: 500px;
+        height: 550px;
         background-color: white;
         padding: 20px;
         border-style:solid ;
@@ -208,7 +212,7 @@ button{
     }
     .echipa1{
         width: 300px;
-        height: 500px;
+        height: 550px;
         background-color: white;
         padding: 20px;
         border-style:solid ;

@@ -1,5 +1,7 @@
-var echipa1=1000;
-var echipa2=1000;
+var echipa1=0;
+
+
+var echipa2=0;
 var victorii1 = 0;
 var victorii2 = 0;
 var egal1= 0;
@@ -13,6 +15,27 @@ script.type = 'text/javascript';
 document.getElementsByTagName('head')[0].appendChild(script);
 
 function probs(){
+    //loc1
+    if(document.getElementById("p51").checked){
+        echipa1=1000;
+    }
+    else if(document.getElementById("m51").checked){
+        echipa1=750;
+    }
+    else if(document.getElementById("u51").checked){
+        echipa1=500;
+    }
+
+    //loc2
+    if(document.getElementById("p52").checked){
+        echipa2=1000;
+    }
+    else if(document.getElementById("m52").checked){
+        echipa2=750;
+    }
+    else if(document.getElementById("u52").checked){
+        echipa2=500;
+    }
         document.getElementById("ne1").innerHTML = String(document.getElementById("numeechipa").value);
         //meci11
         if(document.getElementById("v1").checked){
